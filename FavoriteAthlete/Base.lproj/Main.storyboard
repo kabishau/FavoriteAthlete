@@ -62,7 +62,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5Gf-Ey-h8h" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1062" y="139"/>
+            <point key="canvasLocation" x="118" y="66"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="TRS-rn-iLG">
@@ -80,7 +80,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lKU-ko-NXE" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-225" y="73"/>
+            <point key="canvasLocation" x="-713" y="67"/>
         </scene>
         <!--Athlete Form View Controller-->
         <scene sceneID="E4y-uS-Nc5">
@@ -133,7 +133,7 @@
                                 <rect key="frame" x="170" y="345.5" width="34" height="30"/>
                                 <state key="normal" title="Save"/>
                                 <connections>
-                                    <action selector="saveButtonTapped:" destination="8K9-2q-IXD" eventType="touchUpInside" id="hY9-aI-8LA"/>
+                                    <action selector="saveButtonTapped:" destination="8K9-2q-IXD" eventType="touchUpInside" id="VsF-32-XXf"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -150,17 +150,17 @@
                     </view>
                     <navigationItem key="navigationItem" id="V1y-YK-nLQ"/>
                     <connections>
-                        <outlet property="ageTextField" destination="6DH-j1-SLF" id="6Y9-re-8DD"/>
-                        <outlet property="leagueTextField" destination="Aap-hH-FNd" id="NAj-bV-GJQ"/>
-                        <outlet property="nameTextField" destination="U3J-R0-1jS" id="WV2-Wc-aLC"/>
-                        <outlet property="teamTextField" destination="rKE-v9-NBr" id="MJO-gY-cwo"/>
+                        <outlet property="ageTextField" destination="6DH-j1-SLF" id="BiN-Kd-DFH"/>
+                        <outlet property="leagueTextField" destination="Aap-hH-FNd" id="sD8-Z7-0rs"/>
+                        <outlet property="nameTextField" destination="U3J-R0-1jS" id="2bb-md-nZz"/>
+                        <outlet property="teamTextField" destination="rKE-v9-NBr" id="369-Uz-VMm"/>
                         <segue destination="wFc-3q-vwq" kind="unwind" identifier="UnwindToAthleteTable" unwindAction="prepareForUnwindWithSegue:" id="HPS-Df-mzT"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="MrL-ji-oiy" sceneMemberID="firstResponder"/>
                 <exit id="wFc-3q-vwq" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="1860" y="139"/>
+            <point key="canvasLocation" x="934" y="66"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
